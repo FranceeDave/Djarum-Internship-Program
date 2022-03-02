@@ -1,0 +1,158 @@
+.content {
+    padding: 16px;
+}
+.employeecards {
+    width: 173px;
+    height: 238px;
+}
+/* .content > mat-card {
+    width: 140px;
+    top: 35px;
+} */
+
+.text {
+    padding: 0 16px;
+}
+.searchbar {
+    width: 250px;
+    height: 14px;
+    background-color:#f7f7f7;
+    border-radius: 10px;
+    display: flex;
+    padding: 10px;
+    margin-right: 0;
+    
+   
+}
+
+.searchbar > .searchicon {
+    font-size: 16px;
+}
+
+.searchbar > input {
+    background-color:#f7f7f7;
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 13px;
+}
+.search {
+    display: flex;
+}
+/* .searchbar > input {
+    background-color: #f7f7f7;
+    width: 230px;
+    height: 30px;
+    border: none;
+    font-size: 12px;
+    border-radius: 5px;
+    padding-left: 10px;
+
+} */
+
+.Header {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+/* mat-card {
+    width: calc(100% - 15px);
+    height: calc(100% - px);
+  } */
+
+mat-grid-tile {
+    margin: 20px 0;
+}
+
+.location {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-size: 11px;
+    padding-right: 5px;
+    
+}
+
+.locationicon {
+    font-size:18px ;
+    position: relative;
+  /* Adjust these values accordingly */
+  top: 3px;
+  left: 5px;
+
+}
+
+.mat-card-header .mat-card-title {
+    margin-bottom: 0;
+}
+
+.button {
+    margin: 0 auto;
+    display: block;
+    font-size: 10px;
+    
+}
+
+.img1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60px;
+    height: 60px;
+    display: block;
+}
+
+.content {
+    width: 83%;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.subheader {
+    color: grey;
+}
+
+.name {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+mat-grid-list {
+    margin: 10px;
+    margin-top: -8px;
+}
+
+.job {
+    text-align: center;
+}
+
+.cari {
+   display: flex;
+   justify-content: right;
+   margin-right: 13px;
+}
+
+/* .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: aut;
+    font-size: 17px;
+  } */
+/* .search_wrap.search_wrap_5 .search_box .btn{
+	width: 125px;
+	height: 45px;
+	top: 8px;
+	right: 5px;
+	border-radius: 3px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.search_wrap.search_wrap_5 .search_box .input{
+	padding-right: 145px;
+} */

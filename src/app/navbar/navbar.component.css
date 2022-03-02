@@ -1,0 +1,17 @@
+.spacer {
+    flex: 1 1 auto;
+}
+
+h6 {
+    font-size: 12px;
+}
+
+.profileimg {
+    padding: 10px 5px 5px 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.header {
+    height: 7%;
+}

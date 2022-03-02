@@ -1,0 +1,169 @@
+.img1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 109px;
+    height: 110px;
+    display: block;
+    margin-bottom: 0;
+}
+
+.CloseButton {
+padding-left: 0;
+padding-top: 0;
+margin-bottom: 0px;
+}
+
+.Button {
+    margin-bottom: -25px;
+    margin-left: -7px;
+}
+
+.dialog {
+    width: 300px;
+    height: 470px;
+}
+mat-dialog-content {
+    text-align: center;
+}
+
+.DashedLine {
+margin-bottom: 18px;
+}
+
+hr {
+    border: none;
+    border-top: 1px dashed silver;
+    color: #fff;
+    background-color: #fff;
+    height: 1px;
+    width: 85%;
+    margin-bottom: -8px;
+}
+.name {
+    margin-bottom: 0;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 13px;
+}
+
+.emailtitle {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.NIKtitle {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.ExtTitle {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+.emailaddress {
+    font-size: 13px;
+    margin-top: -7px;
+}
+
+.NoNik {
+    font-size: 13px;
+    margin-top: -7px;
+}
+
+.ExtNum {
+    font-size: 13px;
+    margin-top: -7px;
+}
+
+.location {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-size: 14px;
+    margin-bottom: -8px;
+}
+
+.EmailGroup {
+    margin-left: 10px;
+}
+
+.NIKGroup {
+    margin-left: 10px;
+}
+
+.ExtGroup {
+    margin-left: 10px;
+}
+
+.Email {
+    display: flex !important;
+    align-items: center !important;
+    font-size: 14px;
+    margin-top: 1px;
+    padding: 0;
+    padding-left: 13px;
+}
+
+.NIK {
+    display: flex !important;
+    align-items: center !important;
+    font-size: 14px;
+    margin-top: 1px;
+    padding: 0;
+    padding-left: 13px;
+}
+
+.Ext {
+    display: flex !important;
+    align-items: center !important;
+    font-size: 14px;
+    margin-top: 1px;
+    padding: 0;
+    padding-left: 13px;
+}
+
+.emailicon {
+    margin-left: 20px;
+    padding-top: -10px;
+    font-size: 30px;
+    margin-top: 0;
+    padding-right: 6px;
+    width: 36px;
+    height: 30px;
+    margin-top: -5px;
+}
+
+.NIKicon {
+    margin-left: 20px;
+    padding-top: -10px;
+    font-size: 30px;
+    margin-top: 0;
+    padding-right: 6px;
+    width: 36px;
+    height: 30px;
+    margin-top: -5px;
+}
+
+.ExtIcon {
+    margin-left: 20px;
+    padding-top: -10px;
+    font-size: 30px;
+    margin-top: 0;
+    padding-right: 6px;
+    width: 36px;
+    height: 30px;
+    margin-top:-5px;
+}
+/* .email {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-size: 18px;
+} */
+
+/* .custom-class mat-icon {
+    vertical-align: middle;
+} */
