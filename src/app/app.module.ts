@@ -18,6 +18,10 @@ import { EmployeeListComponent } from './employee-list/employee-list.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { DialogComponent } from './dialog/dialog.component';
 
+
+// import {NgxSkeletonLoaderModule} from 'ngx-skeleton-loader';
+
+
 @NgModule({
     declarations: [
         AppComponent,
@@ -38,7 +42,10 @@ import { DialogComponent } from './dialog/dialog.component';
         MatInputModule,
         MatDialogModule,
         MatGridListModule,
-        MatIconModule
+        MatIconModule,
+       
+        // NgxSkeletonLoaderModule.forRoot()
+       
     ],
     providers: [],
     bootstrap: [AppComponent]

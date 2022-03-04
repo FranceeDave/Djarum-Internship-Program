@@ -29,26 +29,42 @@
     <input type="text" placeholder="Search..">
   </div> -->
 
+
+
 <div class="content">
     <div class="text">
-        <h3 class="Header">Employee list</h3>
-        <p class="subheader">
+        <div class="Header">
+            <div *ngIf="Header">
+              {{Header}}
+            </div>
+          </div>
+        
+        <!-- <h3 class="Header">Employee list</h3> -->
+        <div class="SubHead"> <p class="subheader" *ngIf=SubHeader>
             Get to know your employee, view their contact list for further
             information
         </p>
-        <mat-divider></mat-divider>
+    </div>
+    <br>
+        
+            <mat-divider ></mat-divider>
+       
+        
     </div>
 
     <br />
 
-    <div class="cari">
-        <div class="Search">
-            <div class="searchbar">
-                <mat-icon class="searchicon">search</mat-icon>
-                <input type="text" placeholder="Search" /><span></span>
-            </div>
-           </div> 
-    </div>
+    
+        <div class="cari">
+            <div class="Search">
+                <div class="searchbar">
+                    <mat-icon class="searchicon">search</mat-icon>
+                    <input type="text" placeholder="Search" /><span></span>
+                </div>
+               </div> 
+        </div>
+ 
+   
 
 
     <mat-grid-list cols="6" [gutterSize]="'20px'" rowHeight="245px">
@@ -56,9 +72,13 @@
             <mat-grid-tile *ngFor="let num of [1, 2, 3, 4, 6, 7, 8, 9,10,11,12,13,14,15,16]">
              <div style="margin: 5px">
                 <mat-card>
-                    <img class="img1" src="assets/Profileimg.png" />
+                    <div class="image">
+                    <img class="img1" *ngIf="IMG" src="assets/Profileimg.png" />
+                </div>
+
                     <mat-card-header class="name">
-                        <mat-card-title style="font-size: 12.5px">
+                        
+                        <mat-card-title style="font-size: 13px">
                             Michael kurniawan
                         </mat-card-title>
                     </mat-card-header>
@@ -74,7 +94,7 @@
                         <button
                             class="button"
                             mat-flat-button
-                            color="primary"
+                            
                             (click)="openDialog()"
                         >
                             View Profile
@@ -87,6 +107,8 @@
     </mat-grid-list>
 
 </div>
+
+
 
 <!-- <div class="content">
     <div fxLayout="row wrap" fxLayoutGap="20px grid">
@@ -115,3 +137,4 @@
         *ngFor="let num of [1, 2, 3, 4, 5]"
     ></div>
 </div>
+

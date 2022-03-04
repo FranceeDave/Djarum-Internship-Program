@@ -1,3 +1,53 @@
+.Header:empty, .SubHead:empty, .image:empty, .nama:empty{
+    animation: loading 1.1s infinite linear;
+    background: #dedfe1;
+    background-image: -webkit-linear-gradient(to right, #dedfe1 0%, #f2f3f5 20%, #dedfe1 40%, #dedfe1 100%);
+    background-image: linear-gradient(to right, #dedfe1 0%, #f2f3f5 20%, #dedfe1 40%, #dedfe1 100%);
+    background-repeat: no-repeat;
+}
+
+.image {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60px;
+    height: 60px;
+    display: block;
+    border-radius: 50%;
+}
+
+.nama {
+    height: 20px;
+    width: 10%;
+}
+.SubHead {
+    width: 40%;
+    height: 15px;
+    margin-top: 1px;
+}
+
+.Line {
+    width: 100%;
+    height: 2px;
+}
+
+.Header{
+    height: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+    width: 10%;
+}
+
+@keyframes loading {
+    0% {
+      background-position: -100px;
+    }
+    100% {
+    background-position: 200px;
+    }
+  }
+
+  
 .content {
     padding: 16px;
 }
@@ -50,12 +100,7 @@
 
 } */
 
-.Header {
-    color: black;
-    font-weight: bold;
-    font-size: 18px;
-    margin-bottom: 5px;
-}
+
 /* mat-card {
     width: calc(100% - 15px);
     height: calc(100% - px);
@@ -91,7 +136,8 @@ mat-grid-tile {
     margin: 0 auto;
     display: block;
     font-size: 10px;
-    
+    background-color: #1434A4;
+    color: white;
 }
 
 .img1 {
@@ -110,12 +156,19 @@ mat-grid-tile {
 
 .subheader {
     color: grey;
+    padding-top: 1px;
 }
 
 .name {
     text-align: center;
     font-weight: bold;
     padding-top: 10px;
+ 
+}
+
+.Name {
+    font-size: 12.5039px;
+    
 }
 
 mat-grid-list {
